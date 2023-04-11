@@ -22,41 +22,15 @@
       type="text/babel"
       src="app/functions/nano_core_functions.js"
     ></script>
-    <style>
-      * {
-       box-sizing: border-box; 
-      }
-      body {
-        margin: 0;
-      }
-      #main {
-        display: flex;
-        min-height: calc(100vh - 40vh);
-      }
-      #main > article {
-        flex: 1;
-      }
-      #main > nav, 
-      #main > aside {
-        flex: 0 0 20vw;
-        background: beige;
-      }
-      #main > nav {
-        order: -1;
-      }
-      header, footer, article, nav, aside {
-        padding: 1em;
-      }
-      header, footer {
-        background: yellowgreen;
-        height: 20vh;
-      }
-    </style>
+    
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <div id="app">
 
     </div>
+
+    <script type="text/babel" src="template/modules/Logo.js"></script>
 
     <script type="text/babel" src="template/views/Lady.js"></script>
     <script type="text/babel" src="template/views/MainComponent.js"></script>

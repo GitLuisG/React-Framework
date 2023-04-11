@@ -1,5 +1,5 @@
 class HeaderComponent extends React.Component {
     render() {
-      return <header>HeaderComponent</header>;;
+      return <header> <Logo/> HeaderComponent</header>;;
     }
   }
